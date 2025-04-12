@@ -1,5 +1,5 @@
 # EuSokol
-OpenEuphoria wrapper for Sokol libraries
+OpenEuphoria wrapper for Sokol libraries. You will need to use the 64-bit of OpenEuphoria for these libraries to function correctly. 
 
 # About
 This is a collection/wrapper of the Sokol libraries for the OpenEuphoria programming language. 
