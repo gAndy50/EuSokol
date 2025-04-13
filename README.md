@@ -1,6 +1,15 @@
 # EuSokol
 OpenEuphoria wrapper for Sokol libraries. You will need to use the 64-bit of OpenEuphoria for these libraries to function correctly. 
 
+# Sokol Libraries Wrapped
+- Sokol App
+- Sokol Graphics
+- Sokol Audio
+- Sokol Time
+- Sokol Glue
+- Sokol Shape
+- Sokol GP
+
 # About
 This is a collection/wrapper of the Sokol libraries for the OpenEuphoria programming language. 
 
