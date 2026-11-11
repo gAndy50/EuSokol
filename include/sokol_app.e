@@ -1,7 +1,7 @@
 --SokolApp Wrapper
 --Written by Andy P.
 --OpenEuphoria wrapper for Sokol App library
---Copyright (c) 2025
+--Copyright (c) 2026
 
 include std/ffi.e
 include std/machine.e
@@ -747,4 +747,4 @@ public constant xsapp_android_get_native_activity = define_c_func(app,"+sapp_and
 public function sapp_android_get_native_activity()
 	return c_func(xsapp_android_get_native_activity,{})
 end function
-­667.60
+Â­667.60
