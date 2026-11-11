@@ -1,7 +1,7 @@
 --SokolGfx Wrapper
 --Written by Andy P.
 --OpenEuphoria wrapper for Sokol Gfx library
---Copyright (c) 2025
+--Copyright (c) 2026
 
 include std/ffi.e
 include std/machine.e
@@ -2074,4 +2074,4 @@ public constant xsg_gl_query_attachments_info = define_c_func(gfx,"+sg_gl_query_
 public function sg_gl_query_attachments_info(sequence atts)
 	return c_func(xsg_gl_query_attachments_info,{atts})
 end function
-­2075.52
+Â­2075.52
