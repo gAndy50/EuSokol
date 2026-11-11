@@ -476,19 +476,19 @@ end type
 public constant sg_color_attachment_action = define_c_struct({
 	C_INT, --load_action
 	C_INT, --store_action
-	C_INT --clear_value
+	sg_color --clear_value
 })
 
 public constant sg_depth_attachment_action = define_c_struct({
 	C_INT, --load_action
 	C_INT, --store_action
-	C_FLOAT --clear_value
+	sg_color --clear_value
 })
 
 public constant sg_stencil_attachment_action = define_c_struct({
 	C_INT, --load_action
 	C_INT, --store_action
-	C_UINT8 --clear_value
+	sg_color --clear_value
 })
 
 public constant sg_pass_action = define_c_struct({
@@ -2074,4 +2074,4 @@ public constant xsg_gl_query_attachments_info = define_c_func(gfx,"+sg_gl_query_
 public function sg_gl_query_attachments_info(sequence atts)
 	return c_func(xsg_gl_query_attachments_info,{atts})
 end function
-Â­2075.52
+­491.9
